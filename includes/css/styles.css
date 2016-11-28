@@ -1,0 +1,353 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   body {
+   	-webkit-font-smoothing: antialiased;
+   	text-rendering: optimizelegibility;
+   }
+ #right_column{
+   color: white;
+ }
+
+ #list-group{
+   background: oblique;
+   color: transparent;
+ }
+ p{
+   color: white;
+ }
+  .list-group-item-text{
+    color: white;
+  }
+  #features h3{
+    color: black;
+  }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+/*.navbar: hover{
+  background-color: black;
+}*/
+
+
+#searchInput{
+  width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+   	margin-top: 60px;
+   }
+   .carousel-caption {
+   	font-size: 27px;
+    font-family: 'Pacifico', cursive;
+   }
+
+   .carousel-caption h4 {
+   	font-size: 35px;
+    font-family: 'Satisfy', cursive;
+   }
+
+   .carousel-caption {
+   	font-size: 29px;
+   }
+
+   .carousel-caption h4 {
+   	font-size: 40px;
+   }
+   #myCarousel .item { height: 400px; }
+
+
+   #slide1 {
+   	background: url('../../images/rocky-large1.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   	background: url('../../images/miami-large1.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('../../images/manhattan-large1.jpg') top center no-repeat;
+   }
+#featuresHeading p{
+  font-family: 'Chewy', cursive;
+  text-align: center;
+}
+#featuresHeading h2{
+  font-family: 'Trirong', serif;
+  text-align: center;
+}
+#features h3{
+  font-family: 'Trirong', serif;
+}
+
+.img-circle{
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+/*
+----------------------------------
+   Jumbotron
+----------------------------------
+*/
+
+#footy{
+  background-color: #000000;
+}
+#footer_container{
+  margin-top: 20px;
+  color: white;
+}
+
+.bg {
+  background: url("../../images/jumbo4.jpg") no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+.row{
+  color: white;
+}
+
+.jumbotron {
+  margin-top: 60px;
+  margin-bottom: 20px;
+background: transparent;
+width: 100%;
+height: 400px;
+text-shadow: #444 0 1px 1px;
+background-size: 100% 100%;
+color: white;
+
+}
+.jumbotron h1{
+  font-family: 'Tangerine', cursive;
+  font-size: 150px;
+}
+.jumbotron p{
+  font-family: 'Cookie',cursive;
+  font-size: 40px;
+}
+
+/*.btn
+{
+  padding-right: 10px;
+}*/
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+    #Information h2{
+      font-family: 'Trirong', serif;
+      text-align: center;
+    }
+    #moreInfo h3{
+      font-family: 'Trirong', serif;
+    }
+   .tab-content p{
+     font-family: 'Cookie',cursive;
+     font-size: 23px;
+   }
+    .tab-content h4{
+      font-family: 'Vidaloka', serif;
+    }
+
+    #right_column p{
+      font-family: 'Cookie',cursive;
+      font-size: 23px;
+    }
+  .footer_link {
+    float: right;
+  }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 736px) {
+
+  .nav-collapse {
+    clear: both;
+  }
+
+  #youtube{
+    width: 300px;
+    height: 300px;
+  }
+  #maps{
+    width: 300px;
+    height: 300px;
+  }
+  .jumbotron h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+  }
+  .jumbotron p{
+    font-family: 'Cookie',cursive;
+    font-size: 23px;
+  }
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+
+/*tablet*/
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+  #searchInput{
+    width: 130px;
+  }
+
+  .img-circle{
+    width: 100px;
+    height: 100px;
+  }
+
+  .jumbotron h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+  }
+  .jumbotron p{
+    font-family: 'Cookie',cursive;
+    font-size: 26px;
+  }
+  #myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/manhattan-med1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/miami-med1.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/rocky-med1.jpg') top center no-repeat;
+	}
+
+  .carousel-caption {
+    font-size: 16px;
+  }
+
+  .carousel-caption h4 {
+    font-size: 22px;
+  }
+
+  #youtube{
+    width: 300px;
+    height: 300px;
+  }
+  #maps{
+    width: 300px;
+    height: 300px;
+  }
+}
+/*@media (max-width: 1024px) {
+
+  #youtube{
+    width: 400px;
+    height: 400px;
+  }
+  #maps{
+    width: 400px;
+    height: 400px;
+  }
+}*/
+
+/* Large desktop */
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+  #youtube{
+    width: 450px;
+    height: 400px;
+  }
+  #maps{
+    width: 450px;
+    height: 400px;
+  }
+
+  #moreInfo h2{
+    text-align: center;
+  }
+  #searchbutton{
+    margin-left: 70px;
+  }
+  .jumbotron h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 150px;
+  }
+  .jumbotron p{
+    font-family: 'Cookie',cursive;
+    font-size: 40px;
+  }
+
+  #myCarousel .item { height: 500px; }
+
+	#slide1 {
+		background: url('../../images/manhattan-large1.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/miami-large1.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/rocky-large1.jpg') top center no-repeat;
+	}
+
+
+}
+
+@media (min-width: 1401px) and (max-width: 2560px) {
+
+  #youtube{
+    width: 550px;
+    height: 400px;
+  }
+  #maps{
+    width: 550px;
+    height: 400px;
+  }
+  #searchbutton{
+    margin-left: 400px;
+  }
+}
